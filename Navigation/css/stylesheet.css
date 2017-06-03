@@ -1,0 +1,33 @@
+/* Pull the inline css elements here */
+
+/* A class to be used with <aside> for the table of contents */
+.table-of-contents{
+  min-width: 50px;
+  max-width: 100px;
+  display: table-cell;
+}
+/* A class for styling list contents in "table of contents" */
+.toc-style{
+  list-style-type: none;
+}
+/* Another class, for <aside> elements that are used in main content */
+.extra{
+  min-width: 50px;
+  max-width: 150px;
+  float: right;
+}
+
+main{
+  max-width: 900px;
+  display: table-cell;
+}
+
+/* This is a hover effect - currently it creates a shadow when you hover over a link */
+a:hover{
+  background-color: #e6e6e6;
+}
+
+/* Challenge - add an active effect - just for looks */
+a.active{
+  background-color: #e6e6e6;
+}
